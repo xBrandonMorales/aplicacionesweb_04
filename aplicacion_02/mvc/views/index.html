@@ -1,3 +1,5 @@
+$def with (datos)
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,6 +9,7 @@
 </head>
 <body>
     <h1>Index</h1>
-    <p>Esta es una pagina de prueba</p>
+    $for i in datos:
+        <p>$i</p>
 </body>
 </html>

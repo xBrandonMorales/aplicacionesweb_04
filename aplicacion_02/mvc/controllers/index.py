@@ -1,11 +1,15 @@
 import web
+from mvc.models.modelo_index import ModeloIndex
 
 render = web.template.render('mvc/views/')
+
+m_index = ModeloIndex()
 
 class Index:
     def GET(self):
         try:
-            return render.index()
+            resultado  = m_index.consultarProducto()
+            return render.index(resultado)
         except Exception as e:
             print(f"Error 101 - index {e.args}")
             return "Upsi algo salio mal"
