@@ -4,4 +4,8 @@ render = web.template.render('mvc/views/')
 
 class Productos:
     def GET(self):
-        return render.productos()
+        try:
+            return render.productos()
+        except Exception as e:
+            print(f"Error 103 - productos {e.args}")
+            return "Upsi algo salio mal"
