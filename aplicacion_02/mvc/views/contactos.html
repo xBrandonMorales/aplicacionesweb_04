@@ -1,3 +1,5 @@
+$def with (contactos)
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,7 +8,17 @@
     <title>Contactos</title>
 </head>
 <body>
-    <h1>Mis contactos</h1>
-    <p>Aldo --- 7750000000</p>
+    <h1>Contactos</h1>
+    <table>
+        <tr>
+            <th>Nombre</th>
+            <th>Email</th>
+        </tr>
+        $for contacto in contactos: 
+            <tr>
+                <td>$contacto['nombre']</td>
+                <td>$contacto['email']</td> 
+            </tr>
+    </table>
 </body>
 </html>
