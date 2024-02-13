@@ -12,7 +12,8 @@ class ModeloIndex():
             "Laptop HP",
             "Mouse Logitech",
             "Tableta 7",
-            "USB C"
+            "HUB USB C",
+            "Otro valor"
         )
 
         return datos

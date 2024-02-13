@@ -7,8 +7,8 @@ class ModeloContactos():
     def consultarContactos(self):
         contactos = [
             {
-                "nombre":"Dejah",
-                "email":"dejah@gmail.com"
+                "nombre":"Salvador",
+                "email":"salvador@gmail.com"
             },
             {
                "nombre":"Aldo",
