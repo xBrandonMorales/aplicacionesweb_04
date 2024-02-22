@@ -1,4 +1,4 @@
-"""Framework web.py """
+
 import web
 
 # Rutas de los controladores

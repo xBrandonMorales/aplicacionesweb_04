@@ -11,16 +11,16 @@ class ModeloContactos():
                 "email":"salvador@gmail.com"
             },
             {
-               "nombre":"Aldo",
-                "email":"aldo@gmail.com" 
+               "nombre":"brandon",
+                "email":"brandon@gmail.com" 
             },
             {
-               "nombre":"Tania",
-                "email":"tania@gmail.com" 
+               "nombre":"miki",
+                "email":"mikili@gmail.com" 
             },
             {
-               "nombre":"Evelyn",
-                "email":"evelyn@gmail.com" 
+               "nombre":"Esmeralda",
+                "email":"esme@gmail.com" 
             }
         ]
 

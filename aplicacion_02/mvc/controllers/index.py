@@ -12,5 +12,5 @@ class Index:
             return render.index(resultado)
         except Exception as e:
             print(f"Error 101 - index {e.args}")
-            return "Upsi algo salio mal"
+            return "algo ocurrio"
         

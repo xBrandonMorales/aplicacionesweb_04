@@ -12,4 +12,4 @@ class Contactos:
             return render.contactos(resultado)
         except Exception as e:
             print(f"Error 102 - Contactos {e.args}")
-            return "Upsi algo salio mal"
+            return "algo ocurrio"

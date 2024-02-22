@@ -8,7 +8,7 @@ app = web.application(urls, globals())
 
 class hello:
     def GET(self):
-        return 'Hello friend'
+        return 'HOli guapa'
 
 
 class pagina2:

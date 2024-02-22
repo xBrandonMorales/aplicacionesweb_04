@@ -11,8 +11,8 @@ class ModeloIndex():
         datos = (
             "Laptop HP",
             "Mouse Logitech",
-            "Tableta 7",
-            "HUB USB C",
+            "Iphone 8",
+            "Funkoo",
             "Otro valor"
         )
 
